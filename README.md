@@ -77,3 +77,9 @@ rm -r Python-3.10.11 Python-3.10.11.tgz
 
 Now, you have Python 3.10.11 installed on your WSL. You can use `python3.10` or `python3` to invoke this version.
 ```
+### create virtual environment using wsl and activate it
+```
+ python3.10 -m venv env
+ source env/bin/activate
+ 
+```
